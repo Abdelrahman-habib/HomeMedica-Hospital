@@ -1,0 +1,21 @@
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-right: 0.5em;
+}
+.table thead th {
+  letter-spacing: 0px;
+}
+
+.flag-text {
+  margin-right: 10px;
+}
+* {
+  /* letter-spacing: 0rem !important; */
+  word-wrap: normal;
+}
+
+table {
+  word-wrap: normal;
+}
+tfoot {
+  background-color: #eef1f58f;
+}

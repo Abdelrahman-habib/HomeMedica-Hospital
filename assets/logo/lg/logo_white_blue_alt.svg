@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="SvgjsSvg1001" width="288" height="288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="SvgjsG1008" transform="matrix(1,0,0,1,0,0)">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162.35 97.2" width="288" height="288" style="">
+      <defs>
+        <linearGradient id="a" x1="210.33" x2="210.85" y1="-145.38" y2="-145.38" gradientTransform="translate(-441.69 213.06)" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#ffffff" class="stopColorcc5cbd svgShape"/>
+          <stop offset="0.28" stop-color="#ffffff" class="stopColord376b7 svgShape"/>
+          <stop offset="0.86" stop-color="#ffffff" class="stopColore6baa8 svgShape"/>
+          <stop offset="1" stop-color="#ffffff" class="stopColorebcaa4 svgShape"/>
+        </linearGradient>
+        <linearGradient id="b" x1="210.33" x2="210.85" y1="-145.38" y2="-145.38" gradientTransform="translate(-445.59 216.87)" xlink:href="#a"/>
+        <linearGradient id="c" x1="-93.45" x2="-92.92" y1="33.35" y2="33.35" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#ffffff" stop-opacity=".44" class="stopColord55836 svgShape"/>
+          <stop offset="0.24" stop-color="#fffef5" stop-opacity=".44" class="stopColord4583e svgShape"/>
+          <stop offset="0.49" stop-color="#ffffff" stop-opacity=".45" class="stopColord35957 svgShape"/>
+          <stop offset="0.74" stop-color="#ffffff" stop-opacity=".46" class="stopColord05a81 svgShape"/>
+          <stop offset="0.99" stop-color="#ffffff" stop-opacity=".48" class="stopColorcc5cbb svgShape"/>
+          <stop offset="1" stop-color="#ffffff" stop-opacity=".48" class="stopColorcc5cbd svgShape"/>
+        </linearGradient>
+        <linearGradient id="d" x1="123.58" x2="111.01" y1="59.8" y2="59.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#ffffff" class="stopColordc9739 svgShape"/>
+          <stop offset="0.18" stop-color="#ffffff" stop-opacity=".98" class="stopColordb953d svgShape"/>
+          <stop offset="0.36" stop-color="#ffffff" stop-opacity=".93" class="stopColorda8f4b svgShape"/>
+          <stop offset="0.54" stop-color="#ffffff" stop-opacity=".84" class="stopColord78561 svgShape"/>
+          <stop offset="0.73" stop-color="#ffffff" stop-opacity=".72" class="stopColord37781 svgShape"/>
+          <stop offset="0.92" stop-color="#ffffff" stop-opacity=".56" class="stopColorce65a8 svgShape"/>
+          <stop offset="1" stop-color="#ffffff" stop-opacity=".48" class="stopColorcc5cbd svgShape"/>
+        </linearGradient>
+      </defs>
+      <g data-name="Layer 2" fill="#ffffff" class="color000 svgShape" style="">
+        <g data-name="Layer 1" fill="#ffffff" class="color000 svgShape" style="">
+          <g opacity=".9" fill="#ffffff" class="color000 svgShape" style="">
+            <g opacity=".15" fill="#ffffff" class="color000 svgShape" style="">
+              <line x1="24.22" x2="89.76" y1="22.87" y2="22.87" fill="#e4b4eb"/>
+              <line x1="24.22" x2="89.76" y1="22.87" y2="22.87" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width=".48" class="colorStroked55836 svgStroke"/>
+            </g>
+            <g style="isolation:isolate" fill="#ffffff" class="color000 svgShape">
+              <rect width="77.26" height="64.8" x=".25" y="32.4" fill="#1f55b5" class="color010802 svgShape"/>
+              <path fill="#5a8dee" d="M119.92,0l42.43,32.4V97.2H77.5V32.4Zm16.72,68.18V51.42H123.78V34.67H110.92V51.42H98.06V68.18h12.86V84.92h12.86V68.18h12.86" class="color020c04 svgShape"/>
+              <polygon fill="#ffffff" points="77.5 32.4 .25 32.4 42.67 0 119.92 0 77.5 32.4" class="color010803 svgShape"/>
+            </g>
+            <path fill="#2d6cdf" d="M25.65,45.74H45.28a2.6,2.6,0,0,1,2.6,2.6V97.2a0,0,0,0,1,0,0H23.05a0,0,0,0,1,0,0V48.34A2.6,2.6,0,0,1,25.65,45.74Z" class="color0d744b svgShape"/>
+            <g opacity=".54" fill="#ffffff" class="color000 svgShape">
+              <rect width="5.72" height="1.91" x="24.83" y="68.61" fill="#00c6ff" rx=".48" transform="rotate(91.25 27.693 69.56)" class="colore4b4eb svgShape"/>
+              <path fill="url(#a)" d="M27.26,66.7h1.43a0,0,0,0,1,0,0v1.91a0,0,0,0,1,0,0H27.26a.48.48,0,0,1-.48-.48v-1A.48.48,0,0,1,27.26,66.7Z" transform="rotate(91.25 27.737 67.654)"/>
+              <path fill="url(#b)" d="M26.7,70.51h1.43a.48.48,0,0,1,.48.48v1a.48.48,0,0,1-.48.48H26.7a0,0,0,0,1,0,0V70.51a0,0,0,0,1,0,0Z" transform="rotate(91.25 27.65 71.464)"/>
+            </g>
+            <path fill="#00c6ff" d="M22.9,70.51H70.68a1.84,1.84,0,0,1,1.84,1.84v.07a0,0,0,0,1,0,0H21.06a0,0,0,0,1,0,0v-.07A1.84,1.84,0,0,1,22.9,70.51Z" opacity=".11" transform="rotate(90 46.79 71.47)" class="colore4b4eb svgShape"/>
+            <path fill="#00c6ff" d="M24.8,95.29H45.86a1.89,1.89,0,0,1,1.89,1.89v0a0,0,0,0,1,0,0H22.92a0,0,0,0,1,0,0v0a1.89,1.89,0,0,1,1.89-1.89Z" opacity=".11" transform="rotate(180 35.33 96.245)" class="colore4b4eb svgShape"/>
+            <rect width="77.34" height="1.91" y="32.4" fill="url(#c)" opacity=".5"/>
+          </g>
+          <polygon fill="#ffffff" points="42.12 .11 .15 32.57 77.34 32.57 119.77 .11 42.12 .11" class="color020e04 svgShape" style=""/>
+          <g opacity=".2" fill="#ffffff" class="color000 svgShape" style="">
+            <rect width="12.57" height="50.26" x="111.01" y="34.67" fill="url(#d)"/>
+            <rect width="38.99" height="16.76" x="98.15" y="51.27" fill="#ffffff" class="colordc9739 svgShape"/>
+          </g>
+          <g opacity=".68" fill="#ffffff" class="color000 svgShape" style="">
+            <rect width="12.57" height="50.26" x="111.01" y="34.67" fill="#ffffff" class="colorfff svgShape"/>
+            <rect width="38.99" height="16.76" x="98.15" y="51.27" fill="#ffffff" class="colorfff svgShape"/>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </g>
+</svg>

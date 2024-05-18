@@ -1,0 +1,1052 @@
+<html lang="en" data-textdirection="ltr" class="loading">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <meta name="description" content="HomeMedica hospital -EDIT DEPARTMENT" />
+    <meta name="author" content="Abdelrahman Habib" />
+    <title>EDIT DEPARTMENT</title>
+
+    <!-- BEGIN: Vendor CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/vendors.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/extensions/toastr.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/forms/select/select2.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/pickers/pickadate/pickadate.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/pickers/daterange/daterangepicker.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/pickers/tinytimepicker/timepicker.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/pickers/pickr/pickr-themes.css"
+    />
+
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/bootstrap-extended.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/colors.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/components.css"
+    />
+
+    <!-- END: Theme CSS-->
+
+    <!-- BEGIN: Page CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/plugins/forms/validation/form-validation.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/plugins/extensions/toastr.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/plugins/forms/wizard.css"
+    />
+
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/style-rtl.css"
+    />
+    <!-- END: Custom CSS-->
+  </head>
+
+  <body
+    class="vertical-layout vertical-menu-modern 2-columns footer-static menu-collapsed"
+    data-open="click"
+    data-menu="vertical-menu-modern"
+    data-col="2-columns"
+  >
+    <!-- BEGIN: Main Menu-->
+    <div
+      class="main-menu menu-fixed menu-light menu-accordion menu-shadow"
+      data-scroll-to-active="true"
+    >
+      <div class="navbar-header">
+        <ul class="nav navbar-nav flex-row">
+          <li class="nav-item mr-auto logo-item">
+            <a class="navbar-brand" href="index.html">
+              <div class="brand-logo">
+                <img
+                  class="logo"
+                  src="../../../assets/logo/lg/logo_white_blue.svg"
+                />
+              </div>
+              <h2 class="brand-text mb-0"><b>HomeMedica</b></h2>
+            </a>
+          </li>
+          <li class="nav-item nav-toggle">
+            <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"
+              ><i class="bx bx-x d-block d-xl-none font-medium-6 primary"></i
+              ><i
+                class="toggle-icon bx bx-arrow-from-right font-medium-6 d-none d-xl-block primary"
+                data-ticon="bx-arrow-from-left"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="shadow-bottom"></div>
+      <div class="main-menu-content">
+        <ul
+          class="navigation navigation-main"
+          id="main-menu-navigation"
+          data-menu="menu-navigation"
+          data-icon-style="lines"
+        >
+          <li class="nav-item">
+            <a href="app-chat.html"
+              ><i class="menu-livicon" data-icon="comments"></i
+              ><span class="menu-title" data-i18n="Chat">Chat</span
+              ><span
+                class="badge badge-light-primary badge-pill badge-round float-right"
+                >2</span
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="app-appointments.html"
+              ><i class="menu-livicon" data-icon="calendar"></i
+              ><span class="menu-title" data-i18n="Calendar">Appointments</span
+              ><span
+                class="badge hidden badge-light-primary badge-pill badge-round float-right"
+                >0</span
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="table.html"
+              ><i class="menu-livicon" data-icon="grid"></i
+              ><span class="menu-title">Table</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="leaf"></i
+              ><span class="menu-title">Patients</span></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="patients-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item">Patients List</span></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="building"></i
+              ><span class="menu-title">Departments</span></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="departments-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item">Departments List</span></a
+                >
+              </li>
+              <li class="active">
+                <a
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item">Edit Department</span></a
+                >
+              </li>
+              <li>
+                <a href="add-department.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Text Utilities"
+                    >Add Department</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="heart"></i
+              ><span class="menu-title" data-i18n="heart">Doctors</span></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="doctors-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Grid"
+                    >Doctors List</span
+                  ></a
+                >
+              </li>
+
+              <li>
+                <a href="add-doctor.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Syntax Highlighter"
+                    >Add Doctor</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="SOS.html"
+              ><i class="menu-livicon" data-icon="help"></i
+              ><span class="menu-title" data-i18n="help">SOS Calls</span
+              ><span
+                class="badge badge-circle-light-danger badge-pill badge-round float-right hidden"
+                >0</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END: Main Menu-->
+    <div class="app-content content">
+      <div class="content-overlay"></div>
+      <div class="content-wrapper">
+        <div class="content-header row">
+          <div class="content-header-left col-12 mb-2 mt-1">
+            <div class="row breadcrumbs-top">
+              <div class="col-12">
+                <h5 class="content-header-title float-left pr-1 mb-0">
+                  Edit Departments
+                </h5>
+                <div class="breadcrumb-wrapper col-12">
+                  <ol class="breadcrumb p-0 mb-0">
+                    <li class="breadcrumb-item">
+                      <a href="index.html"><i class="bx bx-home-alt"></i></a>
+                    </li>
+                    <li class="breadcrumb-item">
+                      <a href="departments-list.html">Departments</a>
+                    </li>
+                    <li class="breadcrumb-item active">Edit Department</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-body">
+          <!-- users edit start -->
+          <section class="users-edit">
+            <div class="card">
+              <div class="card-header pb-2">
+                <h4 class="card-title">Edit Department</h4>
+              </div>
+              <div class="card-content">
+                <div class="card-body">
+                  <form id="edit-department-form" novalidate>
+                    <ul class="nav nav-tabs mb-2" role="tablist">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link d-flex align-items-center active"
+                          id="baisc-information-tab"
+                          data-toggle="tab"
+                          href="#baisc-information"
+                          aria-controls="baisc-information"
+                          role="tab"
+                          aria-selected="true"
+                        >
+                          <i class="bx bx-user mr-25"></i
+                          ><span class="d-none d-sm-block"
+                            >Baisc Information</span
+                          >
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link d-flex align-items-center next-tab"
+                          id="table-details-tab"
+                          data-toggle="tab"
+                          href="#table-details"
+                          aria-controls="table-details"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <i class="bx bx-table mr-25"></i
+                          ><span class="d-none d-sm-block">Table Details</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link d-flex align-items-center next-tab"
+                          id="table-details-tab"
+                          data-toggle="tab"
+                          href="#schedule-details"
+                          aria-controls="schedule-details"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <i class="bx bx-time mr-25"></i
+                          ><span class="d-none d-sm-block"
+                            >Schedule Details</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <!-- tab 1 -->
+                      <div
+                        class="tab-pane active fade show"
+                        id="baisc-information"
+                        aria-labelledby="baisc-information-tab"
+                        role="tabpanel"
+                      >
+                        <fieldset>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-group">
+                                <label for="department-name">Name</label>
+                                <input
+                                  id="department-name"
+                                  name="name"
+                                  class="form-control required"
+                                  readonly
+                                  data-validation-required-message="you must select a department name"
+                                />
+
+                                <div class="controls text-light">
+                                  <small
+                                    >! department names are set values that
+                                    can't be modified. if you want to change a
+                                    department name, delete the department and
+                                    create a new one</small
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-group">
+                                <label for="department-price"
+                                  >Ticket Price</label
+                                >
+                                <input
+                                  id="department-price"
+                                  name="price"
+                                  class="form-control"
+                                  placeholder="Ticket Price"
+                                />
+
+                                <div class="controls"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-group">
+                                <label for="department-description"
+                                  >Description</label
+                                >
+                                <textarea
+                                  class="form-control"
+                                  name="description"
+                                  id="department-description"
+                                  rows="2"
+                                  placeholder="Description"
+                                ></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </div>
+                      <!-- tab 2 -->
+                      <div
+                        class="tab-pane fade show"
+                        id="table-details"
+                        aria-labelledby="table-details-tab"
+                        role="tabpanel"
+                      >
+                        <fieldset>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-group">
+                                <label for="department-color"
+                                  >Color<br /><small
+                                    >[used for schedule' event colors in
+                                    hospital table]</small
+                                  ></label
+                                >
+                                <button id="department-color-picker"></button>
+                                <input
+                                  type="text"
+                                  class="hidden form-control"
+                                  name="color"
+                                  id="department-color"
+                                  value="#42445a"
+                                />
+                                <input
+                                  type="text"
+                                  class="hidden form-control"
+                                  name="textcolor"
+                                  id="department-textcolor"
+                                  value="#FFFFFF"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </div>
+                      <!-- tab 3 -->
+                      <div
+                        class="tab-pane fade show"
+                        id="schedule-details"
+                        aria-labelledby="schedule-details-tab"
+                        role="tabpanel"
+                      >
+                        <fieldset>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-1">
+                                  <label class="mb-0 w-100 text-center"
+                                    >open</label
+                                  >
+                                </div>
+                                <div class="col-5">
+                                  <label class="mb-0 w-100 text-center"
+                                    >day</label
+                                  >
+                                </div>
+                                <div class="col-3">
+                                  <label class="mb-0 w-100 text-center"
+                                    >from</label
+                                  >
+                                </div>
+                                <div class="col-3">
+                                  <label class="mb-0 w-100 text-center"
+                                    >to</label
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-1">
+                                  <fieldset
+                                    class="form-group d-flex justify-content-left"
+                                  >
+                                    <div class="custom-control custom-switch">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        unchecked=""
+                                        name="Saturday"
+                                        id="Saturday"
+                                      />
+                                      <label
+                                        class="custom-control-label day-switch"
+                                        for="Saturday"
+                                      >
+                                        <span class="switch-icon-left"
+                                          ><i class="bx bx-check"></i
+                                        ></span>
+                                        <span class="switch-icon-right"
+                                          ><i class="bx bx-x"></i
+                                        ></span>
+                                      </label>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                                <div class="col-5">
+                                  <fieldset class="form-group">
+                                    <input
+                                      name="department-schedule-day"
+                                      value="Saturday"
+                                      class="form-control department-schedule-day required"
+                                      required=""
+                                      disabled=""
+                                      data-validation-required-message="you have to select a working day"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-from required"
+                                      required=""
+                                      name="SaturdayFrom"
+                                      id="SaturdayFrom"
+                                      value="08:00"
+                                      data-validation-required-message="you have to select a starting time"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-to required"
+                                      required=""
+                                      name="SaturdayTo"
+                                      id="SaturdayTo"
+                                      value="14:00"
+                                      data-validation-required-message="you have to select a finishing time"
+                                    />
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-1">
+                                  <fieldset
+                                    class="form-group d-flex justify-content-left"
+                                  >
+                                    <div class="custom-control custom-switch">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        unchecked=""
+                                        name="Sunday"
+                                        id="Sunday"
+                                      />
+                                      <label
+                                        class="custom-control-label day-switch"
+                                        for="Sunday"
+                                      >
+                                        <span class="switch-icon-left"
+                                          ><i class="bx bx-check"></i
+                                        ></span>
+                                        <span class="switch-icon-right"
+                                          ><i class="bx bx-x"></i
+                                        ></span>
+                                      </label>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                                <div class="col-5">
+                                  <fieldset class="form-group">
+                                    <input
+                                      name="department-schedule-day"
+                                      value="Sunday"
+                                      class="form-control department-schedule-day required"
+                                      required=""
+                                      disabled=""
+                                      data-validation-required-message="you have to select a working day"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-from required"
+                                      required=""
+                                      name="SundayFrom"
+                                      id="SundayFrom"
+                                      value="08:00"
+                                      data-validation-required-message="you have to select a starting time"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-to required"
+                                      required=""
+                                      name="SundayTo"
+                                      id="SundayTo"
+                                      value="14:00"
+                                      data-validation-required-message="you have to select a finishing time"
+                                    />
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-1">
+                                  <fieldset
+                                    class="form-group d-flex justify-content-left"
+                                  >
+                                    <div class="custom-control custom-switch">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        unchecked=""
+                                        name="Monday"
+                                        id="Monday"
+                                      />
+                                      <label
+                                        class="custom-control-label day-switch"
+                                        for="Monday"
+                                      >
+                                        <span class="switch-icon-left"
+                                          ><i class="bx bx-check"></i
+                                        ></span>
+                                        <span class="switch-icon-right"
+                                          ><i class="bx bx-x"></i
+                                        ></span>
+                                      </label>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                                <div class="col-5">
+                                  <fieldset class="form-group">
+                                    <input
+                                      name="department-schedule-day"
+                                      value="Monday"
+                                      class="form-control department-schedule-day required"
+                                      required=""
+                                      disabled=""
+                                      data-validation-required-message="you have to select a working day"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-from required"
+                                      required=""
+                                      name="MondayFrom"
+                                      id="MondayFrom"
+                                      value="08:00"
+                                      data-validation-required-message="you have to select a starting time"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-to required"
+                                      required=""
+                                      name="MondayTo"
+                                      id="MondayTo"
+                                      value="14:00"
+                                      data-validation-required-message="you have to select a finishing time"
+                                    />
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-1">
+                                  <fieldset
+                                    class="form-group d-flex justify-content-left"
+                                  >
+                                    <div class="custom-control custom-switch">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        unchecked=""
+                                        name="Tuesday"
+                                        id="Tuesday"
+                                      />
+                                      <label
+                                        class="custom-control-label day-switch"
+                                        for="Tuesday"
+                                      >
+                                        <span class="switch-icon-left"
+                                          ><i class="bx bx-check"></i
+                                        ></span>
+                                        <span class="switch-icon-right"
+                                          ><i class="bx bx-x"></i
+                                        ></span>
+                                      </label>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                                <div class="col-5">
+                                  <fieldset class="form-group">
+                                    <input
+                                      name="department-schedule-day"
+                                      value="Tuesday"
+                                      class="form-control department-schedule-day required"
+                                      required=""
+                                      disabled=""
+                                      data-validation-required-message="you have to select a working day"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-from required"
+                                      required=""
+                                      name="TuesdayFrom"
+                                      id="TuesdayFrom"
+                                      value="08:00"
+                                      data-validation-required-message="you have to select a starting time"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-to required"
+                                      required=""
+                                      name="TuesdayTo"
+                                      id="TuesdayTo"
+                                      value="14:00"
+                                      data-validation-required-message="you have to select a finishing time"
+                                    />
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-1">
+                                  <fieldset
+                                    class="form-group d-flex justify-content-left"
+                                  >
+                                    <div class="custom-control custom-switch">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        unchecked=""
+                                        name="Wednesday"
+                                        id="Wednesday"
+                                      />
+                                      <label
+                                        class="custom-control-label day-switch"
+                                        for="Wednesday"
+                                      >
+                                        <span class="switch-icon-left"
+                                          ><i class="bx bx-check"></i
+                                        ></span>
+                                        <span class="switch-icon-right"
+                                          ><i class="bx bx-x"></i
+                                        ></span>
+                                      </label>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                                <div class="col-5">
+                                  <fieldset class="form-group">
+                                    <input
+                                      name="department-schedule-day"
+                                      value="Wednesday"
+                                      class="form-control department-schedule-day required"
+                                      required=""
+                                      disabled=""
+                                      data-validation-required-message="you have to select a working day"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-from required"
+                                      required=""
+                                      name="WednesdayFrom"
+                                      id="WednesdayFrom"
+                                      value="08:00"
+                                      data-validation-required-message="you have to select a starting time"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-to required"
+                                      required=""
+                                      name="WednesdayTo"
+                                      id="WednesdayTo"
+                                      value="14:00"
+                                      data-validation-required-message="you have to select a finishing time"
+                                    />
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-1">
+                                  <fieldset
+                                    class="form-group d-flex justify-content-left"
+                                  >
+                                    <div class="custom-control custom-switch">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        unchecked=""
+                                        name="Thursday"
+                                        id="Thursday"
+                                      />
+                                      <label
+                                        class="custom-control-label day-switch"
+                                        for="Thursday"
+                                      >
+                                        <span class="switch-icon-left"
+                                          ><i class="bx bx-check"></i
+                                        ></span>
+                                        <span class="switch-icon-right"
+                                          ><i class="bx bx-x"></i
+                                        ></span>
+                                      </label>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                                <div class="col-5">
+                                  <fieldset class="form-group">
+                                    <input
+                                      name="department-schedule-day"
+                                      value="Thursday"
+                                      class="form-control department-schedule-day required"
+                                      required=""
+                                      disabled=""
+                                      data-validation-required-message="you have to select a working day"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-from required"
+                                      required=""
+                                      name="ThursdayFrom"
+                                      id="ThursdayFrom"
+                                      value="08:00"
+                                      data-validation-required-message="you have to select a starting time"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-to required"
+                                      required=""
+                                      name="ThursdayTo"
+                                      id="ThursdayTo"
+                                      value="14:00"
+                                      data-validation-required-message="you have to select a finishing time"
+                                    />
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row mb-1">
+                            <div class="col-12">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-1">
+                                  <fieldset
+                                    class="form-group d-flex justify-content-left"
+                                  >
+                                    <div class="custom-control custom-switch">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        unchecked=""
+                                        name="Friday"
+                                        id="Friday"
+                                      />
+                                      <label
+                                        class="custom-control-label day-switch"
+                                        for="Friday"
+                                      >
+                                        <span class="switch-icon-left"
+                                          ><i class="bx bx-check"></i
+                                        ></span>
+                                        <span class="switch-icon-right"
+                                          ><i class="bx bx-x"></i
+                                        ></span>
+                                      </label>
+                                    </div>
+                                  </fieldset>
+                                </div>
+                                <div class="col-5">
+                                  <fieldset class="form-group">
+                                    <input
+                                      name="department-schedule-day"
+                                      value="Friday"
+                                      class="form-control department-schedule-day required"
+                                      required=""
+                                      disabled=""
+                                      data-validation-required-message="you have to select a working day"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-from required"
+                                      required=""
+                                      name="FridayFrom"
+                                      id="FridayFrom"
+                                      value="08:00"
+                                      data-validation-required-message="you have to select a starting time"
+                                    />
+                                  </fieldset>
+                                </div>
+                                <div class="col-3">
+                                  <fieldset class="form-group">
+                                    <input
+                                      type="time"
+                                      class="form-control department-schedule-to required"
+                                      required=""
+                                      name="FridayTo"
+                                      id="FridayTo"
+                                      value="14:00"
+                                      data-validation-required-message="you have to select a finishing time"
+                                    />
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
+                        <div
+                          class="col-12 d-flex flex-sm-row flex-column justify-content-end mt-1"
+                        >
+                          <button
+                            class="btn btn-primary glow mb-1 mb-sm-0 mr-0 mr-sm-1 edit-department"
+                          >
+                            Save changes
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.tools.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.defaults.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.min.js"></script>
+
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+
+    <script src="../../../app-assets/vendors/js/pickers/pickr/pickr.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/tinytimepicker/timepicker.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/daterange/moment.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/daterange/daterangepicker.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/repeater/jquery.repeater.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/validation/jqBootstrapValidation.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/toastr.min.js"></script>
+    <script src="../../../app-assets/vendors/js/ui/blockUI.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/select/select2.ar.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/jquery.steps.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/scripts/configs/vertical-menu-light.js"></script>
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <script src="../../../app-assets/js/scripts/components.js"></script>
+    <script src="../../../app-assets/js/scripts/footer.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../assets/js/scripts/app-updates.js"></script>
+    <script src="../../../assets/js/scripts/helper-methods.js"></script>
+    <script src="../../../assets/js/scripts/pages/init.js"></script>
+    <script src="../../../assets/js/scripts/pages/edit-department/form-validation.js"></script>
+    <script src="../../../assets/js/scripts/pages/edit-department/init.js"></script>
+    <script src="../../../assets/js/scripts/pages/edit-department/edit-department.js"></script>
+
+    <!-- END: Page JS-->
+  </body>
+</html>

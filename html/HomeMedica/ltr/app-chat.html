@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+  <!-- BEGIN: Head-->
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <meta name="description" content="HomeMedica hospital - CHAT" />
+
+    <meta name="author" content="Abdelrahman Habib" />
+    <title>CHAT</title>
+
+    <!-- BEGIN: Vendor CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/vendors.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/extensions/toastr.css"
+    />
+
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/bootstrap-extended.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/colors.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/components.css"
+    />
+
+    <!-- END: Theme CSS-->
+
+    <!-- BEGIN: Page CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/pages/app-chat.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/plugins/extensions/toastr.css"
+    />
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/style-rtl.css"
+    />
+    <!-- END: Custom CSS-->
+  </head>
+  <!-- END: Head-->
+
+  <!-- BEGIN: Body-->
+
+  <body
+    class="vertical-layout footer-hidden navbar-hidden app-fill vertical-menu-modern chat-application 2-columns footer-static menu-collapsed pace-done"
+    data-open="click"
+    data-menu="vertical-menu-modern"
+    data-col="content-left-sidebar"
+  >
+    <!-- BEGIN: Main Menu-->
+    <div
+      class="main-menu menu-fixed menu-light menu-accordion menu-shadow"
+      data-scroll-to-active="true"
+    >
+      <div class="navbar-header">
+        <ul class="nav navbar-nav flex-row">
+          <li class="nav-item mr-auto logo-item">
+            <a class="navbar-brand" href="index.html">
+              <div class="brand-logo">
+                <img
+                  class="logo"
+                  src="../../../assets/logo/lg/logo_white_blue.svg"
+                />
+              </div>
+              <h2 class="brand-text mb-0"><b>HomeMedica</b></h2>
+            </a>
+          </li>
+          <li class="nav-item nav-toggle">
+            <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"
+              ><i class="bx bx-x d-block d-xl-none font-medium-6 primary"></i
+              ><i
+                class="toggle-icon bx bx-arrow-from-right font-medium-6 d-none d-xl-block primary"
+                data-ticon="bx-arrow-from-left"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="shadow-bottom"></div>
+      <div class="main-menu-content">
+        <ul
+          class="navigation navigation-main"
+          id="main-menu-navigation"
+          data-menu="menu-navigation"
+          data-icon-style="lines"
+        >
+          <li class="active nav-item">
+            <a href="app-chat.html"
+              ><i class="menu-livicon" data-icon="comments"></i
+              ><span class="menu-title" data-i18n="Chat">Chat</span
+              ><span
+                class="badge badge-light-primary badge-pill badge-round float-right"
+                >2</span
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="app-appointments.html"
+              ><i class="menu-livicon" data-icon="calendar"></i
+              ><span class="menu-title" data-i18n="Calendar">Appointments</span
+              ><span
+                class="badge hidden badge-light-primary badge-pill badge-round float-right"
+                >0</span
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="table.html"
+              ><i class="menu-livicon" data-icon="grid"></i
+              ><span class="menu-title" data-i18n="grid">Table</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="leaf"></i
+              ><span class="menu-title" data-i18n="leaf">Patients</span></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="patients-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Grid"
+                    >Patients List</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="building"></i
+              ><span class="menu-title" data-i18n="building"
+                >Departments</span
+              ></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="departments-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Grid"
+                    >Departments List</span
+                  ></a
+                >
+              </li>
+
+              <li>
+                <a href="add-department.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Text Utilities"
+                    >Add Department</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="heart"></i
+              ><span class="menu-title" data-i18n="heart">Doctors</span></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="doctors-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Grid"
+                    >Doctors List</span
+                  ></a
+                >
+              </li>
+
+              <li>
+                <a href="add-doctor.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Syntax Highlighter"
+                    >Add Doctor</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="SOS.html"
+              ><i class="menu-livicon" data-icon="help"></i
+              ><span class="menu-title" data-i18n="help">SOS Calls</span
+              ><span
+                class="badge badge-circle-light-danger badge-pill badge-round float-right hidden"
+                >0</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+      <div class="content-area-wrapper">
+        <div class="sidebar-left">
+          <div class="sidebar">
+            <!-- app chat user profile left sidebar start -->
+            <div class="chat-user-profile">
+              <header
+                class="chat-user-profile-header text-center border-bottom"
+              >
+                <span class="chat-profile-close">
+                  <i class="bx bx-x"></i>
+                </span>
+                <div class="my-2">
+                  <div class="avatar bg-success">
+                    <span class="avatar-content" id="hospital-initials"></span>
+                  </div>
+                  <h5 class="mb-0" id="hospital-name"></h5>
+                  <span>Hospital</span>
+                </div>
+              </header>
+              <div class="chat-user-profile-content">
+                <div class="chat-user-profile-scroll">
+                  <h6 class="text-uppercase mb-1">ABOUT</h6>
+                  <p id="hospital-about" class="mb-2"></p>
+                  <h6>CONTACT INFORAMTION</h6>
+                  <ul class="list-unstyled mb-2">
+                    <li class="mb-25" id="hospital-email"></li>
+                    <li id="hopital-phone"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- app chat user profile left sidebar ends -->
+            <!-- app chat sidebar start -->
+            <div class="chat-sidebar card">
+              <span class="chat-sidebar-close">
+                <i class="bx bx-x"></i>
+              </span>
+              <div class="chat-sidebar-search">
+                <div class="d-flex align-items-center">
+                  <div class="chat-sidebar-profile-toggle">
+                    <div class="avatar bg-success">
+                      <span class="avatar-content" id="hopital-avatar"></span>
+                    </div>
+                  </div>
+                  <fieldset
+                    class="form-group position-relative has-icon-left mx-75 mb-0"
+                  >
+                    <input
+                      type="text"
+                      class="form-control round"
+                      id="chat-search"
+                      placeholder="Search"
+                    />
+                    <div class="form-control-position">
+                      <i class="bx bx-search-alt text-dark"></i>
+                    </div>
+                  </fieldset>
+                </div>
+              </div>
+              <div class="chat-sidebar-list-wrapper">
+                <ul class="chat-important-patients-list chat-sidebar-list"></ul>
+                <h6 class="px-2 pt-1 pb-25 mb-0">Patients</h6>
+                <ul class="chat-patients-list chat-sidebar-list"></ul>
+              </div>
+            </div>
+            <!-- app chat sidebar ends -->
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="content-overlay"></div>
+          <div class="content-wrapper">
+            <div class="content-header row"></div>
+            <div class="content-body">
+              <!-- app chat overlay -->
+              <div class="chat-overlay"></div>
+              <!-- app chat window start -->
+              <section class="chat-window-wrapper">
+                <div class="chat-start">
+                  <span
+                    class="bx bx-message chat-sidebar-toggle chat-start-icon font-large-3 p-3 mb-1"
+                  ></span>
+                  <h4 class="d-none d-lg-block py-50 text-bold-500">
+                    Select a patient to start a chat!
+                  </h4>
+                  <button
+                    class="btn btn-light-primary chat-start-text chat-sidebar-toggle d-block d-lg-none py-50 px-1"
+                  >
+                    Start Conversation!
+                  </button>
+                </div>
+                <div class="chat-area d-none">
+                  <div class="chat-header">
+                    <header
+                      class="d-flex justify-content-between align-items-center border-bottom px-1 py-75"
+                    >
+                      <div class="d-flex align-items-center">
+                        <div class="chat-sidebar-toggle d-block d-lg-none mr-1">
+                          <i class="bx bx-menu font-large-1 cursor-pointer"></i>
+                        </div>
+                        <div
+                          class="avatar chat-profile-toggle m-0 mr-1 bg-primary"
+                        >
+                          <img
+                            class="current-chatter-profile-image"
+                            src=""
+                            height="36"
+                            width="36"
+                            alt="pp"
+                          />
+                          <span class="avatar-status-busy"></span>
+                        </div>
+                        <h6 class="mb-0 current-chatter-username"></h6>
+                      </div>
+                      <div class="chat-header-icons">
+                        <span class="chat-icon-favorite">
+                          <i
+                            class="bx bx-star font-medium-5 cursor-pointer"
+                          ></i>
+                        </span>
+                        <span class="dropdown">
+                          <i
+                            class="bx bx-dots-vertical-rounded font-medium-4 ml-25 cursor-pointer dropdown-toggle nav-hide-arrow cursor-pointer"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            role="menu"
+                          >
+                          </i>
+                          <span
+                            class="dropdown-menu dropdown-menu-right"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a
+                              class="dropdown-item view-patient"
+                              href="patients-list.html"
+                              target="_self"
+                              ><i class="bx bxs-user mr-1"></i> view patient
+                              profile</a
+                            >
+                            <a
+                              class="dropdown-item view-patient-medical-history"
+                              href="JavaScript:void(0);"
+                              target="_self"
+                              ><i class="bx bxs-capsule mr-1"></i> view medical
+                              history</a
+                            >
+                          </span>
+                        </span>
+                      </div>
+                    </header>
+                  </div>
+                  <!-- chat card start -->
+                  <div class="card chat-wrapper shadow-none">
+                    <div class="card-content">
+                      <div class="card-body chat-container">
+                        <div class="chat-content"></div>
+                      </div>
+                    </div>
+                    <div
+                      class="card-footer chat-footer border-top px-2 pt-1 pb-0 mb-1"
+                    >
+                      <form
+                        class="d-flex align-items-center"
+                        onsubmit="chatMessagesSend();"
+                        action="javascript:void(0);"
+                      >
+                        <i class="bx bx-face cursor-pointer emojiPicker"></i>
+                        <input
+                          type="text"
+                          class="form-control chat-message-send mx-1"
+                          placeholder="Type your message here..."
+                        />
+                        <button
+                          type="submit"
+                          class="btn btn-primary glow send d-lg-flex"
+                        >
+                          <span class="d-none d-lg-block mr-1">Send</span>
+                          <i class="bx bx-paper-plane"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- chat card ends -->
+                </div>
+              </section>
+              <!-- app chat window ends -->
+              <!-- app chat profile right sidebar start -->
+              <section class="chat-profile">
+                <header class="chat-profile-header text-center border-bottom">
+                  <span class="chat-profile-close">
+                    <i class="bx bx-x"></i>
+                  </span>
+                  <div class="my-2">
+                    <div class="avatar bg-primary">
+                      <img
+                        class="current-chatter-profile-image"
+                        src=""
+                        height="36"
+                        width="36"
+                        alt="pp"
+                      />
+                    </div>
+                    <h5
+                      class="app-chat-user-name current-chatter-username mb-0"
+                    ></h5>
+                  </div>
+                </header>
+                <div class="chat-profile-content p-2">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group hidden">
+                        <label>About</label>
+                        <textarea
+                          class="form-control hidden patient-about"
+                          readonly
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <h6 class="mt-2">PERSONAL INFORMATION</h6>
+                  <div class="list">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group hidden">
+                          <label>Gender</label>
+                          <div
+                            type="text"
+                            class="form-control patient-gender"
+                            readonly
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group hidden">
+                          <label>Age</label>
+                          <div
+                            type="text"
+                            class="form-control patient-age"
+                            readonly
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group hidden">
+                          <label>Email</label>
+                          <div
+                            type="text"
+                            class="form-control patient-email"
+                            readonly
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group hidden">
+                          <label>Phone</label>
+                          <div
+                            type="text"
+                            class="form-control patient-phone"
+                            readonly
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h6 class="mt-2">MEDICAL HISTOY</h6>
+                  <ul class="list patient-medical-history">
+                    no record found
+                  </ul>
+                </div>
+              </section>
+              <!-- app chat profile right sidebar ends -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.tools.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.defaults.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.min.js"></script>
+
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/pickers/emoji/EmojiPicker.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/toastr.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/scripts/configs/vertical-menu-light.js"></script>
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <script src="../../../app-assets/js/scripts/components.js"></script>
+    <script src="../../../app-assets/js/scripts/footer.js"></script>
+    <script src="../../../app-assets/js/scripts/pages/app-chat.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../assets/js/scripts/app-updates.js"></script>
+    <script src="../../../assets/js/scripts/helper-methods.js"></script>
+    <script src="../../../assets/js/scripts/pages/app-chat/app-chat.js"></script>
+    <!-- END: Page JS-->
+  </body>
+  <!-- END: Body-->
+</html>

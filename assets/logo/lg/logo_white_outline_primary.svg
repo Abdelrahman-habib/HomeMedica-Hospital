@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="16.79 9.463 128.77 79.647" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style>.cls-1{opacity:0.9;}.cls-2{opacity:0.15;}.cls-14,.cls-3{fill:#e4b4eb;}.cls-4{fill:none;stroke:#d55836;stroke-miterlimit:10;stroke-width:0.48px;}.cls-5{isolation:isolate;}.cls-6{fill:#010802;}.cls-7{fill:#010702;}.cls-8{fill:#020c04;}.cls-9{fill:#010803;}.cls-10{fill:#0d744b;}.cls-11{opacity:0.54;}.cls-12{fill:url(#linear-gradient);}.cls-13{fill:url(#linear-gradient-2);}.cls-14{opacity:0.11;}.cls-15{opacity:0.5;fill:url(#linear-gradient-3);}.cls-16{fill:#020e04;}.cls-17{opacity:0.2;}.cls-18{fill:url(#linear-gradient-4);}.cls-19{fill:#dc9739;}.cls-20{opacity:0.68;}.cls-21{fill:#fff;}</style>
+    <linearGradient id="gradient-2" bx:pinned="true">
+      <stop offset="0.109" style="stop-color: rgb(160, 116, 116);"/>
+      <stop offset="0.942" style="stop-color: rgb(255, 252, 252);"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1" style="" transform="matrix(0.755292, 0, 0, 0.755879, 19.751348, 12.586099)">
+    <g class="cls-1">
+      <g class="cls-2"/>
+      <g class="cls-5">
+        <rect class="cls-6" x="0.25" y="32.4" width="77.26" height="64.8" style="fill: rgba(228, 180, 235, 0); stroke-linejoin: round; stroke-linecap: round; stroke: rgb(90, 141, 238); stroke-width: 6.61738px;"/>
+        <path class="cls-8" d="M119.92,0l42.43,32.4V97.2H77.5V32.4Zm16.72,68.18V51.42H123.78V34.67H110.92V51.42H98.06V68.18h12.86V84.92h12.86V68.18h12.86" style="fill: rgba(228, 180, 235, 0); stroke-linejoin: round; stroke-linecap: round; stroke: rgb(90, 141, 238); stroke-width: 6.61738px;"/>
+        <polygon class="cls-9" points="76.951 31.052 2.425 30.397 43.078 -0.275 117.112 -0.275 76.951 30.997" style="fill: rgba(228, 180, 235, 0); stroke-linejoin: round; stroke-linecap: round; stroke: rgb(90, 141, 238); stroke-width: 6.61738px;"/>
+      </g>
+      <path class="cls-10" d="M25.65,45.74H45.28a2.6,2.6,0,0,1,2.6,2.6V97.2a0,0,0,0,1,0,0H23.05a0,0,0,0,1,0,0V48.34A2.6,2.6,0,0,1,25.65,45.74Z" style="fill: rgba(228, 180, 235, 0); stroke: rgb(90, 141, 238); stroke-width: 6.61738px;"/>
+      <path class="cls-14" d="M22.9,70.51H70.68a1.84,1.84,0,0,1,1.84,1.84v.07a0,0,0,0,1,0,0H21.06a0,0,0,0,1,0,0v-.07A1.84,1.84,0,0,1,22.9,70.51Z" transform="translate(118.26 24.68) rotate(90)" style="fill: rgba(228, 180, 235, 0); stroke: rgb(90, 141, 238); stroke-width: 6.61738px;"/>
+      <path class="cls-14" d="M24.8,95.29H45.86a1.89,1.89,0,0,1,1.89,1.89v0a0,0,0,0,1,0,0H22.92a0,0,0,0,1,0,0v0a1.89,1.89,0,0,1,1.89-1.89Z" transform="translate(70.66 192.49) rotate(180)" style="fill: rgba(228, 180, 235, 0); stroke: rgb(90, 141, 238); stroke-width: 6.61738px;"/>
+    </g>
+    <g class="cls-17">
+      <rect class="cls-18" x="111.01" y="34.67" width="12.57" height="50.26" style="fill: rgba(220, 152, 57, 0); stroke: rgb(90, 141, 238); stroke-width: 6.61738px;"/>
+      <rect class="cls-19" x="98.15" y="51.27" width="38.99" height="16.76" style="fill: rgba(220, 152, 57, 0); stroke: rgb(90, 141, 238); stroke-width: 6.61738px;"/>
+    </g>
+  </g>
+  <rect x="1.905" y="1.995" width="158.437" height="93.414" style="fill: rgba(216, 216, 216, 0); stroke: rgb(132, 148, 167); stroke-width: 4px; stroke-linecap: round; stroke-linejoin: round; visibility: hidden;"/>
+</svg>

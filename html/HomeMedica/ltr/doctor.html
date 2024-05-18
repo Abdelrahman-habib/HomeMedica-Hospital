@@ -1,0 +1,535 @@
+<html lang="en" data-textdirection="ltr" class="loading">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <meta name="description" content="HomeMedica hospital - DOCTOR" />
+    <meta name="author" content="Abdelrahman Habib" />
+    <title>DOCTOR</title>
+
+    <!-- BEGIN: Vendor CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/vendors.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/extensions/toastr.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/forms/select/select2.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/pickers/pickadate/pickadate.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/pickers/daterange/daterangepicker.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/vendors/css/pickers/tinytimepicker/timepicker.min.css"
+    />
+
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/bootstrap-extended.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/colors.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/components.css"
+    />
+
+    <!-- END: Theme CSS-->
+
+    <!-- BEGIN: Page CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/plugins/forms/validation/form-validation.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/plugins/extensions/toastr.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../app-assets/css/plugins/forms/wizard.css"
+    />
+
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/style-rtl.css"
+    />
+    <!-- END: Custom CSS-->
+  </head>
+
+  <body
+    class="vertical-layout vertical-menu-modern 2-columns footer-static menu-collapsed"
+    data-open="click"
+    data-menu="vertical-menu-modern"
+    data-col="2-columns"
+  >
+    <!-- BEGIN: Main Menu-->
+    <div
+      class="main-menu menu-fixed menu-light menu-accordion menu-shadow"
+      data-scroll-to-active="true"
+    >
+      <div class="navbar-header">
+        <ul class="nav navbar-nav flex-row">
+          <li class="nav-item mr-auto logo-item">
+            <a class="navbar-brand" href="index.html">
+              <div class="brand-logo">
+                <img
+                  class="logo"
+                  src="../../../assets/logo/lg/logo_white_blue.svg"
+                />
+              </div>
+              <h2 class="brand-text mb-0"><b>HomeMedica</b></h2>
+            </a>
+          </li>
+          <li class="nav-item nav-toggle">
+            <a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"
+              ><i class="bx bx-x d-block d-xl-none font-medium-6 primary"></i
+              ><i
+                class="toggle-icon bx bx-arrow-from-right font-medium-6 d-none d-xl-block primary"
+                data-ticon="bx-arrow-from-left"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="shadow-bottom"></div>
+      <div class="main-menu-content">
+        <ul
+          class="navigation navigation-main"
+          id="main-menu-navigation"
+          data-menu="menu-navigation"
+          data-icon-style="lines"
+        >
+          <li class="nav-item">
+            <a href="app-chat.html"
+              ><i class="menu-livicon" data-icon="comments"></i
+              ><span class="menu-title" data-i18n="Chat">Chat</span
+              ><span
+                class="badge badge-light-primary badge-pill badge-round float-right"
+                >2</span
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="app-appointments.html"
+              ><i class="menu-livicon" data-icon="calendar"></i
+              ><span class="menu-title" data-i18n="Calendar">Appointments</span
+              ><span
+                class="badge hidden badge-light-primary badge-pill badge-round float-right"
+                >0</span
+              ></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="table.html"
+              ><i class="menu-livicon" data-icon="grid"></i
+              ><span class="menu-title" data-i18n="grid">Table</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="leaf"></i
+              ><span class="menu-title" data-i18n="leaf">Patients</span></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="patients-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Grid"
+                    >Patients List</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="building"></i
+              ><span class="menu-title" data-i18n="building"
+                >Departments</span
+              ></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="departments-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Grid"
+                    >Departments List</span
+                  ></a
+                >
+              </li>
+
+              <li>
+                <a href="add-department.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Text Utilities"
+                    >Add Department</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#"
+              ><i class="menu-livicon" data-icon="heart"></i
+              ><span class="menu-title" data-i18n="heart">Doctors</span></a
+            >
+            <ul class="menu-content">
+              <li>
+                <a href="doctors-list.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Grid"
+                    >Doctors List</span
+                  ></a
+                >
+              </li>
+              <li class="active">
+                <a
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Typography"
+                    >Doctor</span
+                  ></a
+                >
+              </li>
+
+              <li>
+                <a href="add-doctor.html"
+                  ><i class="bx bx-right-arrow-alt"></i
+                  ><span class="menu-item" data-i18n="Syntax Highlighter"
+                    >Add Doctor</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="SOS.html"
+              ><i class="menu-livicon" data-icon="help"></i
+              ><span class="menu-title" data-i18n="help">SOS Calls</span
+              ><span
+                class="badge badge-circle-light-danger badge-pill badge-round float-right hidden"
+                >0</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END: Main Menu-->
+    <div class="app-content content">
+      <div class="content-overlay"></div>
+      <div class="content-wrapper">
+        <div class="content-header row">
+          <div class="content-header-left col-12 mb-2 mt-1">
+            <div class="row breadcrumbs-top">
+              <div class="col-12">
+                <h5 class="content-header-title float-left pr-1 mb-0">
+                  Doctor
+                </h5>
+                <div class="breadcrumb-wrapper col-12">
+                  <ol class="breadcrumb p-0 mb-0">
+                    <li class="breadcrumb-item">
+                      <a href="index.html"><i class="bx bx-home-alt"></i></a>
+                    </li>
+                    <li class="breadcrumb-item">
+                      <a href="doctors-list.html">Doctors</a>
+                    </li>
+                    <li class="breadcrumb-item active">Doctor</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-body">
+          <!-- users edit start -->
+          <section class="users-edit">
+            <div class="card">
+              <div class="card-header pb-2">
+                <h4 class="card-title">Doctor</h4>
+              </div>
+              <div class="card-content">
+                <div class="card-body">
+                  <form id="edit-doctor-form" novalidate>
+                    <input type="hidden" name="id" id="doctor-id" />
+                    <ul class="nav nav-tabs mb-2" role="tablist">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link d-flex align-items-center active"
+                          id="baisc-information-tab"
+                          data-toggle="tab"
+                          href="#baisc-information"
+                          aria-controls="baisc-information"
+                          role="tab"
+                          aria-selected="true"
+                        >
+                          <i class="bx bx-user mr-25"></i
+                          ><span class="d-none d-sm-block"
+                            >Baisc Information</span
+                          >
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link d-flex align-items-center next-tab"
+                          id="job-details-tab"
+                          data-toggle="tab"
+                          href="#job-details"
+                          aria-controls="job-details"
+                          role="tab"
+                          aria-selected="false"
+                        >
+                          <i class="bx bx-briefcase mr-25"></i
+                          ><span class="d-none d-sm-block">Job Details</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div class="tab-content">
+                      <!-- tab 1 -->
+                      <div
+                        class="tab-pane active fade show"
+                        id="baisc-information"
+                        aria-labelledby="baisc-information-tab"
+                        role="tabpanel"
+                      >
+                        <div class="media mb-3">
+                          <a class="mr-2" href="#">
+                            <img
+                              src="../../../app-assets/images/portrait/small/anonUser.jpg"
+                              alt="users avatar"
+                              class="users-avatar-shadow rounded-circle"
+                              height="64"
+                              width="64"
+                            />
+                          </a>
+                        </div>
+
+                        <fieldset>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <div class="form-label-group">
+                                  <input
+                                    type="text"
+                                    class="form-control required"
+                                    name="name"
+                                    id="doctor-name"
+                                    placeholder="Name"
+                                    disabled
+                                  />
+                                  <label for="doctor-name">Name</label>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <div class="form-label-group">
+                                  <input
+                                    type="tel"
+                                    class="form-control"
+                                    name="phone"
+                                    id="doctor-phone"
+                                    placeholder="Phone"
+                                    disabled
+                                  />
+                                  <label for="doctor-phone">Phone</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-label-group">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  name="address"
+                                  id="doctor-address"
+                                  placeholder="Address"
+                                  disabled
+                                />
+                                <label for="doctor-address">Address</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-label-group">
+                                <input
+                                  type="text"
+                                  id="doctor-birthDate"
+                                  name="birthDate"
+                                  class="form-control pickadate"
+                                  placeholder="Date of birth"
+                                  disabled
+                                />
+                                <label for="doctor-address">birth date</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-label-group mt-1">
+                                <textarea
+                                  class="form-control"
+                                  name="additionalInfo"
+                                  id="doctor-additional-information"
+                                  rows="2"
+                                  placeholder="Additional information"
+                                  disabled
+                                ></textarea>
+                                <label for="doctor-additional-information"
+                                  >Additional information</label
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
+
+                        <!-- users edit account form ends -->
+                      </div>
+                      <!-- tab 2 -->
+                      <div
+                        class="tab-pane fade show"
+                        id="job-details"
+                        aria-labelledby="job-details-tab"
+                        role="tabpanel"
+                      >
+                        <fieldset>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-label-group">
+                                <input
+                                  type="text"
+                                  id="doctor-specialty"
+                                  name="specialty"
+                                  class="form-control"
+                                  placeholder="Date of birth"
+                                  disabled
+                                />
+                                <label for="doctor-specialty">Specialty</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-label-group">
+                                <label for="doctor-type">Type</label>
+                                <input
+                                  type="text"
+                                  id="doctor-type"
+                                  name="type"
+                                  class="form-control"
+                                  placeholder="Date of birth"
+                                  disabled
+                                />
+                                <label for="doctor-type">Type</label>
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- users edit ends -->
+        </div>
+      </div>
+    </div>
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.tools.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.defaults.js"></script>
+    <script src="../../../app-assets/fonts/LivIconsEvo/js/LivIconsEvo.min.js"></script>
+
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/tinytimepicker/timepicker.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/daterange/moment.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/daterange/daterangepicker.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/repeater/jquery.repeater.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/validation/jqBootstrapValidation.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/toastr.min.js"></script>
+    <script src="../../../app-assets/vendors/js/ui/blockUI.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/select/select2.ar.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/jquery.steps.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/scripts/configs/vertical-menu-light.js"></script>
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <script src="../../../app-assets/js/scripts/components.js"></script>
+    <script src="../../../app-assets/js/scripts/footer.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../assets/js/scripts/app-updates.js"></script>
+    <script src="../../../assets/js/scripts/helper-methods.js"></script>
+    <script src="../../../assets/js/scripts/pages/doctor/init.js"></script>
+
+    <!-- END: Page JS-->
+  </body>
+</html>

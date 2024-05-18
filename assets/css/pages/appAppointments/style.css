@@ -1,0 +1,62 @@
+body {
+  overflow-y: hidden;
+}
+.app-content.content,
+.content-body,
+.calendar-wrapper,
+.content-wrapper {
+  height: 100%;
+}
+.toastui-calendar-timegrid .toastui-calendar-timegrid-scroll-area {
+  height: 96%;
+}
+
+.toastui-calendar-template-time {
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+.toastui-calendar-template-time span {
+  display: block;
+  font-weight: bolder;
+}
+.toastui-calendar-event-time {
+  border-radius: 10px;
+}
+.come-from-modal.left .modal-dialog,
+.come-from-modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 400px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+.come-from-modal.left .modal-content,
+.come-from-modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+  border-radius: 0px;
+}
+
+.come-from-modal.right.fade .modal-dialog {
+  right: 0px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(400px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
